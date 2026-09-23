@@ -11,12 +11,12 @@ export var oGhostShroom = InheritO(CPlants, {
 	night: true,
 	BookHandPosition: "47% 60%",
 	PicArr: [
-		"images/Card/Plants/GloomShroom.webp",
-		"images/Plants/GloomShroom/0.gif",
-		"images/Plants/GloomShroom/GloomShroom.gif",
-		"images/Plants/GloomShroom/GloomShroomSleep.gif",
-		"images/Plants/GloomShroom/GloomShroomAttack.gif",
-		"images/Plants/GloomShroom/GloomShroomBullet.gif",
+		"images/Card/Plants/GhostShroom.webp",
+		"images/Plants/GhostShroom/0.gif",
+		"images/Plants/GhostShroom/GloomShroom.gif",
+		"images/Plants/GhostShroom/GloomShroomSleep.gif",
+		"images/Plants/GhostShroom/GloomShroomAttack.gif",
+		"images/Plants/GhostShroom/GloomShroomBullet.gif",
 	],
 	AudioArr: ["fume"],
 	Tooltip: "Haunts zombies with a stronger spooky fume cloud",
@@ -48,7 +48,7 @@ export var oGhostShroom = InheritO(CPlants, {
 				(b.pixelLeft - 60) +
 				"px;top:" +
 				(b.pixelTop - 65) +
-				"px;background:url(images/Plants/GloomShroom/GloomShroomBullet.gif);z-index:" +
+				"px;background:url(images/Plants/GhostShroom/GloomShroomBullet.gif);z-index:" +
 				(b.zIndex + 1),
 			0,
 			EDPZ
@@ -72,7 +72,7 @@ export var oGhostShroom = InheritO(CPlants, {
 		while (e--) {
 			(g = d[e]).Altitude < 2 && g.getHit1(g, 30);
 		}
-		b.childNodes[1].src = "images/Plants/GloomShroom/GloomShroomAttack.gif";
+		b.childNodes[1].src = "images/Plants/GhostShroom/GloomShroomAttack.gif";
 		SetVisible($(a));
 		ImgSpriter(
 			a,
@@ -94,7 +94,7 @@ export var oGhostShroom = InheritO(CPlants, {
 			0,
 			(i, j) => {
 				var h = $(j);
-				$P[j] && ((h.childNodes[1].src = "images/Plants/GloomShroom/GloomShroom.gif"), SetHidden($(i)));
+				$P[j] && ((h.childNodes[1].src = "images/Plants/GhostShroom/GloomShroom.gif"), SetHidden($(i)));
 			}
 		);
 	},

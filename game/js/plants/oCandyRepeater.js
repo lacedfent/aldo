@@ -9,9 +9,9 @@ export var oCandyRepeater = InheritO(oRepeater, {
 	SunNum: 175,
 	HP: 300,
 	PicArr: [
-		"images/Card/Plants/SplitPea.webp",
-		"images/Plants/SplitPea/0.gif",
-		"images/Plants/SplitPea/SplitPea.gif",
+		"images/Card/Plants/CandyRepeater.webp",
+		"images/Plants/CandyRepeater/0.gif",
+		"images/Plants/CandyRepeater/SplitPea.gif",
 		"images/Plants/PB00.gif",
 		"images/Plants/PB01.gif",
 		"images/Plants/PeaBulletHit.gif",

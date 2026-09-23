@@ -1,6 +1,6 @@
 oS.Init(
 	{
-		PName: [oSunShroom, oPuffShroom, oPeashooter, oWallNut, oCherryBomb],
+		PName: [oSunShroom, oPuffShroom, oPeashooter, oWallNut, oCherryBomb, oGhostShroom],
 		ZName: [oZombie, oZombie2],
 		PicArr: (function () {
 			var a = oSunShroom.prototype;
