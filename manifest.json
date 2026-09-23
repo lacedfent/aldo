@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "Plant vs. Zombies MODDED - Official",
+	"name": "Aldo vs Zombies",
 	"version": "4.0.0",
 	"action": {
 		"default_icon": {
@@ -19,7 +19,7 @@
 		"service_worker": "background.js"
 	},
 	"offline_enabled": true,
-	"description": "Play Plant vs. Zombies MODDED Official as a Chrome extension - Also can Play without Internet, try it now!",
+	"description": "Play Aldo vs Zombies as a Chrome extension - Also can Play without Internet, try it now!",
 	"icons": {
 		"16": "img/16x16.png",
 		"48": "img/48x48.png",

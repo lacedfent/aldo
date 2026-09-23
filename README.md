@@ -1,4 +1,4 @@
-# Plants vs. Zombies MODDED<img src="https://pvzm.net/img/128x128.png" align="right">
+# Aldo vs Zombies<img src="https://pvzm.net/img/128x128.png" align="right">
 
 ###### By ROBINET13 & Clay (clay.rip)
 
