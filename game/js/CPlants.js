@@ -4,6 +4,7 @@ import { oBoomNutBowling } from "./plants/oBoomNutBowling.js";
 import { oBrains } from "./plants/oBrains.js";
 import { oCFlowerPot } from "./plants/oCFlowerPot.js";
 import { oCactus } from "./plants/oCactus.js";
+import { oCandyRepeater } from "./plants/oCandyRepeater.js";
 import { oCattail } from "./plants/oCattail.js";
 import { oCherryBomb } from "./plants/oCherryBomb.js";
 import { oChomper } from "./plants/oChomper.js";
@@ -16,6 +17,7 @@ import { oFlowerVase } from "./plants/oFlowerVase.js";
 import { oFumeShroom } from "./plants/oFumeShroom.js";
 import { oGarlic } from "./plants/oGarlic.js";
 import { oGatlingPea } from "./plants/oGatlingPea.js";
+import { oGhostShroom } from "./plants/oGhostShroom.js";
 import { oGloomShroom } from "./plants/oGloomShroom.js";
 import { oGoldenPrize } from "./plants/oGoldenPrize.js";
 import { oGraveBuster } from "./plants/oGraveBuster.js";
@@ -26,6 +28,7 @@ import { oILilyPad } from "./plants/oILilyPad.js";
 import { oIPotatoMine } from "./plants/oIPotatoMine.js";
 import { oIceFumeShroom } from "./plants/oIceFumeShroom.js";
 import { oIceShroom } from "./plants/oIceShroom.js";
+import { oJackOLantern } from "./plants/oJackOLantern.js";
 import { oJalapeno } from "./plants/oJalapeno.js";
 import { oLaserBean } from "./plants/oLaserBean.js";
 import { oLawnCleaner } from "./plants/oLawnCleaner.js";
@@ -111,6 +114,7 @@ const plants = {
 	oBrains: oBrains,
 	oCFlowerPot: oCFlowerPot,
 	oCactus: oCactus,
+	oCandyRepeater: oCandyRepeater,
 	oCattail: oCattail,
 	oCherryBomb: oCherryBomb,
 	oChomper: oChomper,
@@ -124,6 +128,7 @@ const plants = {
 	oFumeShroom: oFumeShroom,
 	oGarlic: oGarlic,
 	oGatlingPea: oGatlingPea,
+	oGhostShroom: oGhostShroom,
 	oGloomShroom: oGloomShroom,
 	oGoldenPrize: oGoldenPrize,
 	oGraveBuster: oGraveBuster,
@@ -134,6 +139,7 @@ const plants = {
 	oIPotatoMine: oIPotatoMine,
 	oIceFumeShroom: oIceFumeShroom,
 	oIceShroom: oIceShroom,
+	oJackOLantern: oJackOLantern,
 	oJalapeno: oJalapeno,
 	oLaserBean: oLaserBean,
 	oLawnCleaner: oLawnCleaner,
