@@ -3052,29 +3052,6 @@ var CheckLogin = function () {
 };
 
 var SelectModal = function (level) {
-	try {
-		if (window.abxz) {
-			if (!window.abxz.includes(level)) {
-				const gotofull = confirm(
-					atob(
-						atob(
-							"V1c5MUlHTmhiaWQwSUhCc1lYa2dkR2hwY3lCdmJpQjBhR1VnWkdWdGJ5QnphWFJsTGlCWGIzVnNaQ0I1YjNVZ2JHbHJaU0IwYnlCd2JHRjVJSFJvWlNCbWRXeHNJSFpsY25OcGIyNC8"
-						)
-					)
-				);
-				if (gotofull) {
-					window.removeEventListener("beforeunload", warn);
-					window.top.location.href = "https://pvzm.net?ll=" + level;
-					setTimeout(() => {
-						window.open("https://pvzm.net?ll=" + window.p, "_blank");
-					}, 500);
-					return;
-				}
-				return;
-			}
-			window.p = level;
-		}
-	} catch (_) {}
 	HiddenLevel();
 	HiddenMiniGame(1);
 	HiddenRiddleGame(1);

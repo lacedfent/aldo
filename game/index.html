@@ -1176,5 +1176,19 @@
 				}
 			});
 		</script>
+		<script>
+			// aldo fork: playable anywhere, no mirror nags
+			window.abxz = undefined;
+			["stolen-warning", "bottom-site-notice"].forEach(function (id) {
+				var el = document.getElementById(id);
+				el && el.remove();
+			});
+			document.addEventListener("DOMContentLoaded", function () {
+				["stolen-warning", "bottom-site-notice"].forEach(function (id) {
+					var el = document.getElementById(id);
+					el && el.remove();
+				});
+			});
+		</script>
 	</body>
 </html>
