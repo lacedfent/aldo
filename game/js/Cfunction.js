@@ -2007,6 +2007,10 @@ var InitHandBookZCard = function () {
 		oMustacheZombie,
 		oTrashZombie,
 		oLionDanceZombie,
+		oVampireZombie,
+		oFrankenZombie,
+		oPumpkinImp,
+		oHeadlessHorseman,
 	];
 	let i = 0;
 	const len = zombies.length;

@@ -1,22 +1,22 @@
 export var oGhostShroom = InheritO(CPlants, {
 	EName: "oGhostShroom",
 	CName: "Ghost Shroom",
-	width: 100,
-	height: 88,
-	beAttackedPointR: 80,
+	width: 112,
+	height: 81,
+	beAttackedPointR: 92,
 	SunNum: 100,
 	HP: 300,
 	BookHandBack: "Night",
 	SleepGif: 3,
 	night: true,
-	BookHandPosition: "53% 60%",
+	BookHandPosition: "47% 60%",
 	PicArr: [
-		"images/Card/Plants/FumeShroom.webp",
-		"images/Plants/FumeShroom/0.gif",
-		"images/Plants/FumeShroom/FumeShroom.gif",
-		"images/Plants/FumeShroom/FumeShroomSleep.gif",
-		"images/Plants/FumeShroom/FumeShroomAttack.gif",
-		"images/Plants/FumeShroom/FumeShroomBullet.gif",
+		"images/Card/Plants/GloomShroom.webp",
+		"images/Plants/GloomShroom/0.gif",
+		"images/Plants/GloomShroom/GloomShroom.gif",
+		"images/Plants/GloomShroom/GloomShroomSleep.gif",
+		"images/Plants/GloomShroom/GloomShroomAttack.gif",
+		"images/Plants/GloomShroom/GloomShroomBullet.gif",
 	],
 	AudioArr: ["fume"],
 	Tooltip: "Haunts zombies with a stronger spooky fume cloud",
@@ -26,7 +26,7 @@ export var oGhostShroom = InheritO(CPlants, {
 		return a[0] ? -18 : -10;
 	},
 	GetDX() {
-		return -45;
+		return -58;
 	},
 	BirthStyle(c, d, b, a) {
 		oS.DKind && ((c.canTrigger = 0), (c.Sleep = 1), (b.childNodes[1].src = c.PicArr[c.SleepGif]));
@@ -44,11 +44,11 @@ export var oGhostShroom = InheritO(CPlants, {
 		NewEle(
 			a + "_Bullet",
 			"div",
-			"position:absolute;visibility:hidden;width:343px;height:62px;left:" +
-				b.AttackedRX +
+			"position:absolute;visibility:hidden;width:210px;height:200px;left:" +
+				(b.pixelLeft - 60) +
 				"px;top:" +
-				(b.pixelTop + 5) +
-				"px;background:url(images/Plants/FumeShroom/FumeShroomBullet.gif);z-index:" +
+				(b.pixelTop - 65) +
+				"px;background:url(images/Plants/GloomShroom/GloomShroomBullet.gif);z-index:" +
 				(b.zIndex + 1),
 			0,
 			EDPZ
@@ -72,25 +72,29 @@ export var oGhostShroom = InheritO(CPlants, {
 		while (e--) {
 			(g = d[e]).Altitude < 2 && g.getHit1(g, 30);
 		}
-		b.childNodes[1].src = "images/Plants/FumeShroom/FumeShroomAttack.gif";
+		b.childNodes[1].src = "images/Plants/GloomShroom/GloomShroomAttack.gif";
 		SetVisible($(a));
 		ImgSpriter(
 			a,
 			c,
 			[
 				["0 0", 9, 1],
-				["0 -62px", 9, 2],
-				["0 -124px", 9, 3],
-				["0 -186px", 9, 4],
-				["0 -248px", 9, 5],
-				["0 -310px", 9, 6],
-				["0 -372px", 9, 7],
-				["0 -434px", 9, -1],
+				["0 -200px", 9, 2],
+				["0 -400px", 9, 3],
+				["0 -600px", 9, 4],
+				["0 -800px", 9, 5],
+				["0 -1000px", 9, 6],
+				["0 -1200px", 9, 7],
+				["0 -1400px", 9, 8],
+				["0 -1600px", 9, 9],
+				["0 -1800px", 9, 10],
+				["0 -2000px", 9, 11],
+				["0 -2200px", 9, -1],
 			],
 			0,
 			(i, j) => {
 				var h = $(j);
-				$P[j] && ((h.childNodes[1].src = "images/Plants/FumeShroom/FumeShroom.gif"), SetHidden($(i)));
+				$P[j] && ((h.childNodes[1].src = "images/Plants/GloomShroom/GloomShroom.gif"), SetHidden($(i)));
 			}
 		);
 	},

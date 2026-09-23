@@ -1,7 +1,7 @@
 oS.Init(
 	{
 		PName: [oSunShroom, oTwinSunflower, oCandyRepeater, oWallNut, oSquash, oJalapeno, oSpikeweed, oGraveBuster, oGhostShroom, oJackOLantern],
-		ZName: [oZombie, oConeheadZombie, oBucketheadZombie, oFootballZombie, oGargantuar, oImp, oJackinTheBoxZombie],
+		ZName: [oZombie, oConeheadZombie, oBucketheadZombie, oFootballZombie, oGargantuar, oImp, oJackinTheBoxZombie, oPumpkinImp],
 		PicArr: (function () {
 			var a = oSunShroom.prototype;
 			var b = a.PicArr;
@@ -37,6 +37,7 @@ oS.Init(
 			[oBucketheadZombie, 3, 5],
 			[oFootballZombie, 3, 8],
 			[oJackinTheBoxZombie, 2, 10],
+			[oPumpkinImp, 3, 10],
 			[oGargantuar, 1, 12],
 		],
 		FlagNum: 15,
